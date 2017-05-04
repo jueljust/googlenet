@@ -1,0 +1,93 @@
+I0504 20:23:17.573098 17991 Util.cpp:166] commandline: /opt/paddle/bin/../opt/paddle/bin/paddle_trainer --job=train --config=googlenet.py --save_dir=runs --use_gpu=false --num_passes=1 --trainer_count=6 --log_period=10 --test_period=100 --config_args=batch_size=128,is_test=0,is_predict=0,use_gpu=0 
+[INFO 2017-05-04 20:23:17,773 layers.py:2189] output for conv1: c = 64, h = 112, w = 112, size = 802816
+[INFO 2017-05-04 20:23:17,774 layers.py:2314] output for pool1: c = 64, h = 56, w = 56, size = 200704
+[INFO 2017-05-04 20:23:17,775 layers.py:2189] output for conv2_1: c = 64, h = 56, w = 56, size = 200704
+[INFO 2017-05-04 20:23:17,776 layers.py:2189] output for conv2_2: c = 192, h = 56, w = 56, size = 602112
+[INFO 2017-05-04 20:23:17,777 layers.py:2314] output for pool2: c = 192, h = 28, w = 28, size = 150528
+[INFO 2017-05-04 20:23:17,779 layers.py:2189] output for ince3a_1: c = 64, h = 28, w = 28, size = 50176
+[INFO 2017-05-04 20:23:17,780 layers.py:2189] output for ince3a_3r: c = 96, h = 28, w = 28, size = 75264
+[INFO 2017-05-04 20:23:17,781 layers.py:2189] output for ince3a_3: c = 128, h = 28, w = 28, size = 100352
+[INFO 2017-05-04 20:23:17,782 layers.py:2189] output for ince3a_5r: c = 16, h = 28, w = 28, size = 12544
+[INFO 2017-05-04 20:23:17,783 layers.py:2189] output for ince3a_5: c = 32, h = 28, w = 28, size = 25088
+[INFO 2017-05-04 20:23:17,784 layers.py:2314] output for ince3a_max: c = 192, h = 28, w = 28, size = 150528
+[INFO 2017-05-04 20:23:17,786 layers.py:2189] output for ince3a_proj: c = 32, h = 28, w = 28, size = 25088
+[INFO 2017-05-04 20:23:17,787 layers.py:2189] output for ince3b_1: c = 128, h = 28, w = 28, size = 100352
+[INFO 2017-05-04 20:23:17,789 layers.py:2189] output for ince3b_3r: c = 128, h = 28, w = 28, size = 100352
+[INFO 2017-05-04 20:23:17,790 layers.py:2189] output for ince3b_3: c = 192, h = 28, w = 28, size = 150528
+[INFO 2017-05-04 20:23:17,791 layers.py:2189] output for ince3b_5r: c = 32, h = 28, w = 28, size = 25088
+[INFO 2017-05-04 20:23:17,792 layers.py:2189] output for ince3b_5: c = 96, h = 28, w = 28, size = 75264
+[INFO 2017-05-04 20:23:17,793 layers.py:2314] output for ince3b_max: c = 256, h = 28, w = 28, size = 200704
+[INFO 2017-05-04 20:23:17,794 layers.py:2189] output for ince3b_proj: c = 64, h = 28, w = 28, size = 50176
+[INFO 2017-05-04 20:23:17,796 layers.py:2314] output for pool3: c = 480, h = 14, w = 14, size = 94080
+[INFO 2017-05-04 20:23:17,797 layers.py:2189] output for ince4a_1: c = 192, h = 14, w = 14, size = 37632
+[INFO 2017-05-04 20:23:17,799 layers.py:2189] output for ince4a_3r: c = 96, h = 14, w = 14, size = 18816
+[INFO 2017-05-04 20:23:17,800 layers.py:2189] output for ince4a_3: c = 208, h = 14, w = 14, size = 40768
+[INFO 2017-05-04 20:23:17,801 layers.py:2189] output for ince4a_5r: c = 16, h = 14, w = 14, size = 3136
+[INFO 2017-05-04 20:23:17,802 layers.py:2189] output for ince4a_5: c = 48, h = 14, w = 14, size = 9408
+[INFO 2017-05-04 20:23:17,803 layers.py:2314] output for ince4a_max: c = 480, h = 14, w = 14, size = 94080
+[INFO 2017-05-04 20:23:17,804 layers.py:2189] output for ince4a_proj: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-04 20:23:17,806 layers.py:2189] output for ince4b_1: c = 160, h = 14, w = 14, size = 31360
+[INFO 2017-05-04 20:23:17,807 layers.py:2189] output for ince4b_3r: c = 112, h = 14, w = 14, size = 21952
+[INFO 2017-05-04 20:23:17,809 layers.py:2189] output for ince4b_3: c = 224, h = 14, w = 14, size = 43904
+[INFO 2017-05-04 20:23:17,810 layers.py:2189] output for ince4b_5r: c = 24, h = 14, w = 14, size = 4704
+[INFO 2017-05-04 20:23:17,811 layers.py:2189] output for ince4b_5: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-04 20:23:17,812 layers.py:2314] output for ince4b_max: c = 512, h = 14, w = 14, size = 100352
+[INFO 2017-05-04 20:23:17,813 layers.py:2189] output for ince4b_proj: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-04 20:23:17,815 layers.py:2189] output for ince4c_1: c = 128, h = 14, w = 14, size = 25088
+[INFO 2017-05-04 20:23:17,816 layers.py:2189] output for ince4c_3r: c = 128, h = 14, w = 14, size = 25088
+[INFO 2017-05-04 20:23:17,817 layers.py:2189] output for ince4c_3: c = 256, h = 14, w = 14, size = 50176
+[INFO 2017-05-04 20:23:17,818 layers.py:2189] output for ince4c_5r: c = 24, h = 14, w = 14, size = 4704
+[INFO 2017-05-04 20:23:17,819 layers.py:2189] output for ince4c_5: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-04 20:23:17,820 layers.py:2314] output for ince4c_max: c = 512, h = 14, w = 14, size = 100352
+[INFO 2017-05-04 20:23:17,822 layers.py:2189] output for ince4c_proj: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-04 20:23:17,823 layers.py:2189] output for ince4d_1: c = 112, h = 14, w = 14, size = 21952
+[INFO 2017-05-04 20:23:17,825 layers.py:2189] output for ince4d_3r: c = 144, h = 14, w = 14, size = 28224
+[INFO 2017-05-04 20:23:17,826 layers.py:2189] output for ince4d_3: c = 288, h = 14, w = 14, size = 56448
+[INFO 2017-05-04 20:23:17,827 layers.py:2189] output for ince4d_5r: c = 32, h = 14, w = 14, size = 6272
+[INFO 2017-05-04 20:23:17,828 layers.py:2189] output for ince4d_5: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-04 20:23:17,829 layers.py:2314] output for ince4d_max: c = 512, h = 14, w = 14, size = 100352
+[INFO 2017-05-04 20:23:17,830 layers.py:2189] output for ince4d_proj: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-04 20:23:17,832 layers.py:2189] output for ince4e_1: c = 256, h = 14, w = 14, size = 50176
+[INFO 2017-05-04 20:23:17,833 layers.py:2189] output for ince4e_3r: c = 160, h = 14, w = 14, size = 31360
+[INFO 2017-05-04 20:23:17,834 layers.py:2189] output for ince4e_3: c = 320, h = 14, w = 14, size = 62720
+[INFO 2017-05-04 20:23:17,836 layers.py:2189] output for ince4e_5r: c = 32, h = 14, w = 14, size = 6272
+[INFO 2017-05-04 20:23:17,837 layers.py:2189] output for ince4e_5: c = 128, h = 14, w = 14, size = 25088
+[INFO 2017-05-04 20:23:17,838 layers.py:2314] output for ince4e_max: c = 528, h = 14, w = 14, size = 103488
+[INFO 2017-05-04 20:23:17,839 layers.py:2189] output for ince4e_proj: c = 128, h = 14, w = 14, size = 25088
+[INFO 2017-05-04 20:23:17,841 layers.py:2314] output for pool4: c = 832, h = 7, w = 7, size = 40768
+[INFO 2017-05-04 20:23:17,842 layers.py:2189] output for ince5a_1: c = 256, h = 7, w = 7, size = 12544
+[INFO 2017-05-04 20:23:17,843 layers.py:2189] output for ince5a_3r: c = 160, h = 7, w = 7, size = 7840
+[INFO 2017-05-04 20:23:17,844 layers.py:2189] output for ince5a_3: c = 320, h = 7, w = 7, size = 15680
+[INFO 2017-05-04 20:23:17,845 layers.py:2189] output for ince5a_5r: c = 32, h = 7, w = 7, size = 1568
+[INFO 2017-05-04 20:23:17,846 layers.py:2189] output for ince5a_5: c = 128, h = 7, w = 7, size = 6272
+[INFO 2017-05-04 20:23:17,847 layers.py:2314] output for ince5a_max: c = 832, h = 7, w = 7, size = 40768
+[INFO 2017-05-04 20:23:17,848 layers.py:2189] output for ince5a_proj: c = 128, h = 7, w = 7, size = 6272
+[INFO 2017-05-04 20:23:17,850 layers.py:2189] output for ince5b_1: c = 384, h = 7, w = 7, size = 18816
+[INFO 2017-05-04 20:23:17,851 layers.py:2189] output for ince5b_3r: c = 192, h = 7, w = 7, size = 9408
+[INFO 2017-05-04 20:23:17,853 layers.py:2189] output for ince5b_3: c = 384, h = 7, w = 7, size = 18816
+[INFO 2017-05-04 20:23:17,854 layers.py:2189] output for ince5b_5r: c = 48, h = 7, w = 7, size = 2352
+[INFO 2017-05-04 20:23:17,855 layers.py:2189] output for ince5b_5: c = 128, h = 7, w = 7, size = 6272
+[INFO 2017-05-04 20:23:17,856 layers.py:2314] output for ince5b_max: c = 832, h = 7, w = 7, size = 40768
+[INFO 2017-05-04 20:23:17,857 layers.py:2189] output for ince5b_proj: c = 128, h = 7, w = 7, size = 6272
+[INFO 2017-05-04 20:23:17,858 layers.py:2314] output for pool5: c = 1024, h = 1, w = 1, size = 1024
+[INFO 2017-05-04 20:23:17,859 layers.py:2314] output for pool_o1: c = 512, h = 4, w = 4, size = 8192
+[INFO 2017-05-04 20:23:17,860 layers.py:2189] output for conv_o1: c = 128, h = 4, w = 4, size = 2048
+[INFO 2017-05-04 20:23:17,863 layers.py:2314] output for pool_o2: c = 528, h = 4, w = 4, size = 8448
+[INFO 2017-05-04 20:23:17,864 layers.py:2189] output for conv_o2: c = 128, h = 4, w = 4, size = 2048
+[INFO 2017-05-04 20:23:23,165 networks.py:1472] The input order is [input, label]
+[INFO 2017-05-04 20:23:23,166 networks.py:1478] The output order is [loss3]
+I0504 20:23:23.169005 17991 Trainer.cpp:165] trainer mode: Normal
+I0504 20:23:23.413873 17991 PyDataProvider2.cpp:243] loading dataprovider provider::process
+I0504 20:23:24.055138 17991 GradientMachine.cpp:86] Initing parameters..
+I0504 20:23:24.155748 17991 GradientMachine.cpp:93] Init parameters done.
+.........
+I0504 20:27:27.126381 17991 TrainerInternal.cpp:165]  Batch=10 samples=1280 AvgCost=0.893794 CurrentCost=0.893794 Eval:  CurrentEval: 
+.........
+I0504 20:31:24.017042 17991 TrainerInternal.cpp:165]  Batch=20 samples=2560 AvgCost=0.806078 CurrentCost=0.718363 Eval:  CurrentEval: 
+.........
+I0504 20:35:14.149948 17991 TrainerInternal.cpp:165]  Batch=30 samples=3840 AvgCost=0.770359 CurrentCost=0.69892 Eval:  CurrentEval: 
+.........
+I0504 20:39:04.707744 17991 TrainerInternal.cpp:165]  Batch=40 samples=5120 AvgCost=0.743681 CurrentCost=0.663648 Eval:  CurrentEval: 
+.........
+I0504 20:43:02.395997 17991 TrainerInternal.cpp:165]  Batch=50 samples=6400 AvgCost=0.722299 CurrentCost=0.636771 Eval:  CurrentEval: 
+........

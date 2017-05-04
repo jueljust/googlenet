@@ -1,0 +1,142 @@
+I0503 15:02:00.080798 21778 Util.cpp:166] commandline: /opt/paddle/bin/../opt/paddle/bin/paddle_trainer --job=train --config=googlenet.py --save_dir=runs --use_gpu=false --num_passes=1 --trainer_count=6 --log_period=10 --test_period=100 --config_args=batch_size=128 
+[INFO 2017-05-03 15:02:00,276 layers.py:2189] output for conv1: c = 64, h = 112, w = 112, size = 802816
+[INFO 2017-05-03 15:02:00,278 layers.py:2314] output for pool1: c = 64, h = 56, w = 56, size = 200704
+[INFO 2017-05-03 15:02:00,279 layers.py:2189] output for conv2_1: c = 64, h = 56, w = 56, size = 200704
+[INFO 2017-05-03 15:02:00,280 layers.py:2189] output for conv2_2: c = 192, h = 56, w = 56, size = 602112
+[INFO 2017-05-03 15:02:00,281 layers.py:2314] output for pool2: c = 192, h = 28, w = 28, size = 150528
+[INFO 2017-05-03 15:02:00,282 layers.py:2189] output for ince3a_1: c = 64, h = 28, w = 28, size = 50176
+[INFO 2017-05-03 15:02:00,283 layers.py:2189] output for ince3a_3r: c = 96, h = 28, w = 28, size = 75264
+[INFO 2017-05-03 15:02:00,285 layers.py:2189] output for ince3a_3: c = 128, h = 28, w = 28, size = 100352
+[INFO 2017-05-03 15:02:00,286 layers.py:2189] output for ince3a_5r: c = 16, h = 28, w = 28, size = 12544
+[INFO 2017-05-03 15:02:00,287 layers.py:2189] output for ince3a_5: c = 32, h = 28, w = 28, size = 25088
+[INFO 2017-05-03 15:02:00,288 layers.py:2314] output for ince3a_max: c = 192, h = 28, w = 28, size = 150528
+[INFO 2017-05-03 15:02:00,290 layers.py:2189] output for ince3a_proj: c = 32, h = 28, w = 28, size = 25088
+[INFO 2017-05-03 15:02:00,292 layers.py:2189] output for ince3b_1: c = 128, h = 28, w = 28, size = 100352
+[INFO 2017-05-03 15:02:00,293 layers.py:2189] output for ince3b_3r: c = 128, h = 28, w = 28, size = 100352
+[INFO 2017-05-03 15:02:00,294 layers.py:2189] output for ince3b_3: c = 192, h = 28, w = 28, size = 150528
+[INFO 2017-05-03 15:02:00,295 layers.py:2189] output for ince3b_5r: c = 32, h = 28, w = 28, size = 25088
+[INFO 2017-05-03 15:02:00,296 layers.py:2189] output for ince3b_5: c = 96, h = 28, w = 28, size = 75264
+[INFO 2017-05-03 15:02:00,297 layers.py:2314] output for ince3b_max: c = 256, h = 28, w = 28, size = 200704
+[INFO 2017-05-03 15:02:00,298 layers.py:2189] output for ince3b_proj: c = 64, h = 28, w = 28, size = 50176
+[INFO 2017-05-03 15:02:00,300 layers.py:2314] output for pool3: c = 480, h = 14, w = 14, size = 94080
+[INFO 2017-05-03 15:02:00,301 layers.py:2189] output for ince4a_1: c = 192, h = 14, w = 14, size = 37632
+[INFO 2017-05-03 15:02:00,303 layers.py:2189] output for ince4a_3r: c = 96, h = 14, w = 14, size = 18816
+[INFO 2017-05-03 15:02:00,304 layers.py:2189] output for ince4a_3: c = 208, h = 14, w = 14, size = 40768
+[INFO 2017-05-03 15:02:00,305 layers.py:2189] output for ince4a_5r: c = 16, h = 14, w = 14, size = 3136
+[INFO 2017-05-03 15:02:00,306 layers.py:2189] output for ince4a_5: c = 48, h = 14, w = 14, size = 9408
+[INFO 2017-05-03 15:02:00,307 layers.py:2314] output for ince4a_max: c = 480, h = 14, w = 14, size = 94080
+[INFO 2017-05-03 15:02:00,308 layers.py:2189] output for ince4a_proj: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-03 15:02:00,310 layers.py:2189] output for ince4b_1: c = 160, h = 14, w = 14, size = 31360
+[INFO 2017-05-03 15:02:00,311 layers.py:2189] output for ince4b_3r: c = 112, h = 14, w = 14, size = 21952
+[INFO 2017-05-03 15:02:00,312 layers.py:2189] output for ince4b_3: c = 224, h = 14, w = 14, size = 43904
+[INFO 2017-05-03 15:02:00,313 layers.py:2189] output for ince4b_5r: c = 24, h = 14, w = 14, size = 4704
+[INFO 2017-05-03 15:02:00,315 layers.py:2189] output for ince4b_5: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-03 15:02:00,316 layers.py:2314] output for ince4b_max: c = 512, h = 14, w = 14, size = 100352
+[INFO 2017-05-03 15:02:00,317 layers.py:2189] output for ince4b_proj: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-03 15:02:00,318 layers.py:2189] output for ince4c_1: c = 128, h = 14, w = 14, size = 25088
+[INFO 2017-05-03 15:02:00,319 layers.py:2189] output for ince4c_3r: c = 128, h = 14, w = 14, size = 25088
+[INFO 2017-05-03 15:02:00,321 layers.py:2189] output for ince4c_3: c = 256, h = 14, w = 14, size = 50176
+[INFO 2017-05-03 15:02:00,322 layers.py:2189] output for ince4c_5r: c = 24, h = 14, w = 14, size = 4704
+[INFO 2017-05-03 15:02:00,323 layers.py:2189] output for ince4c_5: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-03 15:02:00,324 layers.py:2314] output for ince4c_max: c = 512, h = 14, w = 14, size = 100352
+[INFO 2017-05-03 15:02:00,325 layers.py:2189] output for ince4c_proj: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-03 15:02:00,327 layers.py:2189] output for ince4d_1: c = 112, h = 14, w = 14, size = 21952
+[INFO 2017-05-03 15:02:00,328 layers.py:2189] output for ince4d_3r: c = 144, h = 14, w = 14, size = 28224
+[INFO 2017-05-03 15:02:00,329 layers.py:2189] output for ince4d_3: c = 288, h = 14, w = 14, size = 56448
+[INFO 2017-05-03 15:02:00,330 layers.py:2189] output for ince4d_5r: c = 32, h = 14, w = 14, size = 6272
+[INFO 2017-05-03 15:02:00,332 layers.py:2189] output for ince4d_5: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-03 15:02:00,333 layers.py:2314] output for ince4d_max: c = 512, h = 14, w = 14, size = 100352
+[INFO 2017-05-03 15:02:00,334 layers.py:2189] output for ince4d_proj: c = 64, h = 14, w = 14, size = 12544
+[INFO 2017-05-03 15:02:00,335 layers.py:2189] output for ince4e_1: c = 256, h = 14, w = 14, size = 50176
+[INFO 2017-05-03 15:02:00,337 layers.py:2189] output for ince4e_3r: c = 160, h = 14, w = 14, size = 31360
+[INFO 2017-05-03 15:02:00,338 layers.py:2189] output for ince4e_3: c = 320, h = 14, w = 14, size = 62720
+[INFO 2017-05-03 15:02:00,340 layers.py:2189] output for ince4e_5r: c = 32, h = 14, w = 14, size = 6272
+[INFO 2017-05-03 15:02:00,341 layers.py:2189] output for ince4e_5: c = 128, h = 14, w = 14, size = 25088
+[INFO 2017-05-03 15:02:00,342 layers.py:2314] output for ince4e_max: c = 528, h = 14, w = 14, size = 103488
+[INFO 2017-05-03 15:02:00,343 layers.py:2189] output for ince4e_proj: c = 128, h = 14, w = 14, size = 25088
+[INFO 2017-05-03 15:02:00,345 layers.py:2314] output for pool4: c = 832, h = 7, w = 7, size = 40768
+[INFO 2017-05-03 15:02:00,346 layers.py:2189] output for ince5a_1: c = 256, h = 7, w = 7, size = 12544
+[INFO 2017-05-03 15:02:00,347 layers.py:2189] output for ince5a_3r: c = 160, h = 7, w = 7, size = 7840
+[INFO 2017-05-03 15:02:00,348 layers.py:2189] output for ince5a_3: c = 320, h = 7, w = 7, size = 15680
+[INFO 2017-05-03 15:02:00,349 layers.py:2189] output for ince5a_5r: c = 32, h = 7, w = 7, size = 1568
+[INFO 2017-05-03 15:02:00,350 layers.py:2189] output for ince5a_5: c = 128, h = 7, w = 7, size = 6272
+[INFO 2017-05-03 15:02:00,351 layers.py:2314] output for ince5a_max: c = 832, h = 7, w = 7, size = 40768
+[INFO 2017-05-03 15:02:00,353 layers.py:2189] output for ince5a_proj: c = 128, h = 7, w = 7, size = 6272
+[INFO 2017-05-03 15:02:00,354 layers.py:2189] output for ince5b_1: c = 384, h = 7, w = 7, size = 18816
+[INFO 2017-05-03 15:02:00,355 layers.py:2189] output for ince5b_3r: c = 192, h = 7, w = 7, size = 9408
+[INFO 2017-05-03 15:02:00,357 layers.py:2189] output for ince5b_3: c = 384, h = 7, w = 7, size = 18816
+[INFO 2017-05-03 15:02:00,358 layers.py:2189] output for ince5b_5r: c = 48, h = 7, w = 7, size = 2352
+[INFO 2017-05-03 15:02:00,359 layers.py:2189] output for ince5b_5: c = 128, h = 7, w = 7, size = 6272
+[INFO 2017-05-03 15:02:00,360 layers.py:2314] output for ince5b_max: c = 832, h = 7, w = 7, size = 40768
+[INFO 2017-05-03 15:02:00,361 layers.py:2189] output for ince5b_proj: c = 128, h = 7, w = 7, size = 6272
+[INFO 2017-05-03 15:02:00,362 layers.py:2314] output for pool5: c = 1024, h = 1, w = 1, size = 1024
+[INFO 2017-05-03 15:02:00,363 layers.py:2314] output for pool_o1: c = 512, h = 4, w = 4, size = 8192
+[INFO 2017-05-03 15:02:00,365 layers.py:2189] output for conv_o1: c = 128, h = 4, w = 4, size = 2048
+[INFO 2017-05-03 15:02:00,367 layers.py:2314] output for pool_o2: c = 528, h = 4, w = 4, size = 8448
+[INFO 2017-05-03 15:02:00,369 layers.py:2189] output for conv_o2: c = 128, h = 4, w = 4, size = 2048
+[INFO 2017-05-03 15:02:05,604 networks.py:1472] The input order is [input, label]
+[INFO 2017-05-03 15:02:05,605 networks.py:1478] The output order is [loss3]
+I0503 15:02:05.608167 21778 Trainer.cpp:165] trainer mode: Normal
+I0503 15:02:05.854770 21778 PyDataProvider2.cpp:243] loading dataprovider provider::process
+I0503 15:02:06.350500 21778 GradientMachine.cpp:86] Initing parameters..
+I0503 15:02:07.277143 21778 GradientMachine.cpp:93] Init parameters done.
+.........
+I0503 15:05:37.748163 21778 TrainerInternal.cpp:165]  Batch=10 samples=1280 AvgCost=0.505138 CurrentCost=0.505138 Eval:  CurrentEval: 
+.........
+I0503 15:09:16.175057 21778 TrainerInternal.cpp:165]  Batch=20 samples=2560 AvgCost=0.471489 CurrentCost=0.43784 Eval:  CurrentEval: 
+.........
+I0503 15:12:44.531011 21778 TrainerInternal.cpp:165]  Batch=30 samples=3840 AvgCost=0.460173 CurrentCost=0.437541 Eval:  CurrentEval: 
+.........
+I0503 15:16:16.446107 21778 TrainerInternal.cpp:165]  Batch=40 samples=5120 AvgCost=0.444954 CurrentCost=0.399296 Eval:  CurrentEval: 
+.........
+I0503 15:19:39.516268 21778 TrainerInternal.cpp:165]  Batch=50 samples=6400 AvgCost=0.440599 CurrentCost=0.42318 Eval:  CurrentEval: 
+.........
+I0503 15:23:17.044950 21778 TrainerInternal.cpp:165]  Batch=60 samples=7680 AvgCost=0.432685 CurrentCost=0.393116 Eval:  CurrentEval: 
+.........
+I0503 15:26:56.703487 21778 TrainerInternal.cpp:165]  Batch=70 samples=8960 AvgCost=0.428248 CurrentCost=0.401628 Eval:  CurrentEval: 
+.........
+I0503 15:30:37.098218 21778 TrainerInternal.cpp:165]  Batch=80 samples=10240 AvgCost=0.425685 CurrentCost=0.407744 Eval:  CurrentEval: 
+.........
+I0503 15:34:15.406184 21778 TrainerInternal.cpp:165]  Batch=90 samples=11520 AvgCost=0.422581 CurrentCost=0.397749 Eval:  CurrentEval: 
+.........
+I0503 15:37:38.985882 21778 TrainerInternal.cpp:165]  Batch=100 samples=12800 AvgCost=0.416873 CurrentCost=0.365498 Eval:  CurrentEval: 
+.........
+I0503 15:41:11.303251 21778 TrainerInternal.cpp:165]  Batch=110 samples=14080 AvgCost=0.415541 CurrentCost=0.402224 Eval:  CurrentEval: 
+.........
+I0503 15:44:38.440637 21778 TrainerInternal.cpp:165]  Batch=120 samples=15360 AvgCost=0.411774 CurrentCost=0.370337 Eval:  CurrentEval: 
+.........
+I0503 15:48:25.006378 21778 TrainerInternal.cpp:165]  Batch=130 samples=16640 AvgCost=0.410437 CurrentCost=0.394392 Eval:  CurrentEval: 
+.........
+I0503 15:52:08.898567 21778 TrainerInternal.cpp:165]  Batch=140 samples=17920 AvgCost=0.40573 CurrentCost=0.344529 Eval:  CurrentEval: 
+.........
+I0503 15:55:42.282023 21778 TrainerInternal.cpp:165]  Batch=150 samples=19200 AvgCost=0.402982 CurrentCost=0.364516 Eval:  CurrentEval: 
+.........
+I0503 15:59:17.792285 21778 TrainerInternal.cpp:165]  Batch=160 samples=20480 AvgCost=0.400904 CurrentCost=0.369729 Eval:  CurrentEval: 
+.........
+I0503 16:02:47.846860 21778 TrainerInternal.cpp:165]  Batch=170 samples=21760 AvgCost=0.397263 CurrentCost=0.339005 Eval:  CurrentEval: 
+.........
+I0503 16:06:14.293615 21778 TrainerInternal.cpp:165]  Batch=180 samples=23040 AvgCost=0.396447 CurrentCost=0.382587 Eval:  CurrentEval: 
+.........
+I0503 16:09:53.950425 21778 TrainerInternal.cpp:165]  Batch=190 samples=24320 AvgCost=0.39544 CurrentCost=0.37731 Eval:  CurrentEval: 
+.........
+I0503 16:13:21.655076 21778 TrainerInternal.cpp:165]  Batch=200 samples=25600 AvgCost=0.393246 CurrentCost=0.351567 Eval:  CurrentEval: 
+.........
+I0503 16:17:18.135094 21778 TrainerInternal.cpp:165]  Batch=210 samples=26880 AvgCost=0.39293 CurrentCost=0.3866 Eval:  CurrentEval: 
+.........
+I0503 16:20:59.264981 21778 TrainerInternal.cpp:165]  Batch=220 samples=28160 AvgCost=0.391828 CurrentCost=0.36868 Eval:  CurrentEval: 
+.........
+I0503 16:24:38.928908 21778 TrainerInternal.cpp:165]  Batch=230 samples=29440 AvgCost=0.391169 CurrentCost=0.376684 Eval:  CurrentEval: 
+.........
+I0503 16:28:20.299485 21778 TrainerInternal.cpp:165]  Batch=240 samples=30720 AvgCost=0.391338 CurrentCost=0.395219 Eval:  CurrentEval: 
+.........
+I0503 16:32:22.134909 21778 TrainerInternal.cpp:165]  Batch=250 samples=32000 AvgCost=0.389955 CurrentCost=0.35675 Eval:  CurrentEval: 
+.........
+I0503 16:36:14.960283 21778 TrainerInternal.cpp:165]  Batch=260 samples=33280 AvgCost=0.387506 CurrentCost=0.326296 Eval:  CurrentEval: 
+.........
+I0503 16:40:02.242609 21778 TrainerInternal.cpp:165]  Batch=270 samples=34560 AvgCost=0.386045 CurrentCost=0.348048 Eval:  CurrentEval: 
+.........
+I0503 16:43:47.164126 21778 TrainerInternal.cpp:165]  Batch=280 samples=35840 AvgCost=0.384433 CurrentCost=0.340905 Eval:  CurrentEval: 
+.........
+I0503 16:47:34.875298 21778 TrainerInternal.cpp:165]  Batch=290 samples=37120 AvgCost=0.383388 CurrentCost=0.354131 Eval:  CurrentEval: 
+........I0503 16:50:20.019569 21778 TrainerInternal.cpp:181]  Pass=0 Batch=298 samples=38086 AvgCost=0.383306 Eval: 
+I0503 16:50:20.046852 21778 GradientMachine.cpp:64] Saving parameters to ./runs/pass-00000
